@@ -1,4 +1,6 @@
 package model
 
 // CartItem is cart item model
-type CartItem struct{}
+type CartItem struct {
+	Price float64
+}
