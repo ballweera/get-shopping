@@ -12,4 +12,4 @@ func (service *CartItemServiceImpl) AddCartItem(cartItem model.CartItem) {}
 func (service *CartItemServiceImpl) RemoveCartItem(cartItemID string) {}
 
 // RemoveCartItems removes all items
-func (service *CartItemService) RemoveCartItems(cart model.Cart) {}
+func (service *CartItemServiceImpl) RemoveCartItems(cart model.Cart) {}
