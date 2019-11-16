@@ -7,3 +7,7 @@ type Cart struct {
 	Customer   Customer
 	TotalPrice float64
 }
+
+func (c *Cart) GetCartItems() []CartItem {
+	return c.CartItems
+}

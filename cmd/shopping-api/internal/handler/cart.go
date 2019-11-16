@@ -6,12 +6,15 @@ import (
 	"github.com/ballweera/get-shopping/service"
 )
 
+// CartController is handler of cart
 type CartController struct {
-	CartService service.CartService
+	csvr service.CartService
 }
 
-func (this *CartController) GetCartId(w http.ResponseWriter, r *http.Request) {
+// GetCartID return CartID
+func (ctrl *CartController) GetCartID(w http.ResponseWriter, r *http.Request) {
 }
 
-func (this *CartController) GetCartItems(w http.ResponseWriter, r *http.Request) {
+// CartItems returns the list of CartItem
+func (ctrl *CartController) CartItems(w http.ResponseWriter, r *http.Request) {
 }
